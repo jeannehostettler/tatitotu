@@ -1,0 +1,56 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
