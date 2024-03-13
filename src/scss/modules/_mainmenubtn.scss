@@ -1,17 +1,4 @@
 .mainmenubtn {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  border-radius: 38px;
   cursor: pointer;
-  padding: 6.5px 21px;
   margin-right: 27px;
-  box-shadow: 4px 4px 0px 0px #000;
-  transition-property: background-color color;
-  transition-duration: 0.5s;
-}
-
-.mainmenubtn:hover {
-  background-color: #a56edf;
-  color: white;
 }

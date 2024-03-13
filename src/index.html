@@ -54,7 +54,9 @@
       <div class="row">
         <div class="col-3">
           <div class="cards">
-            <h2>Mes verbes</h2>
+            <div class="top-card">
+              <h2>Mes verbes</h2>
+            </div>
             <label for="addverb"></label>
             <input
               type="text"
@@ -74,6 +76,7 @@
               aller
               <div class="tag-close">X</div>
             </div>
+            <button>Tout supprimer</button>
           </div>
           <button>Créer un défi</button>
           <button>Sauvegarder un défi</button>
@@ -85,8 +88,118 @@
             value="Accès au défi (code)"
           />
         </div>
-        <div class="col-4">temps</div>
-        <div class="col-5">options</div>
+        <div class="col-4">
+          <div class="cards">
+            <div class="top-card">
+              <h2>Mes temps</h2>
+            </div>
+            <h3>Indicatif</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Imparfait</button>
+              </div>
+              <div class="small-button">
+                <button>Futur</button>
+              </div>
+              <div class="small-button">
+                <button>Passé simple</button>
+              </div>
+            </div>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Passé composé</button>
+              </div>
+              <div class="small-button">
+                <button>Plus-que-parfait</button>
+              </div>
+              <div class="small-button">
+                <button>Futur antérieur</button>
+              </div>
+            </div>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Passé antérieur</button>
+              </div>
+            </div>
+            <h3>Impératif</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Passé</button>
+              </div>
+            </div>
+            <h3>Subjonctif</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Passé</button>
+              </div>
+              <div class="small-button">
+                <button>Imparfait</button>
+              </div>
+              <div class="small-button">
+                <button>Plus-que-parfait</button>
+              </div>
+            </div>
+            <h3>Conditionnel</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Passé 1</button>
+              </div>
+              <div class="small-button">
+                <button>Passé 2</button>
+              </div>
+            </div>
+            <h3>Participe</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Passé</button>
+              </div>
+            </div>
+            <h3>Gérondif</h3>
+            <div class="small-button-line">
+              <div class="small-button">
+                <button>Présent</button>
+              </div>
+              <div class="small-button">
+                <button>Passé</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="cards">
+            <div class="top-card">
+              <h2>Options</h2>
+            </div>
+            <div class="options-chooser">
+              Nombre de questions
+              <label for="numbers"></label>
+              <select name="numbers" id="numbers">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="20">30</option>
+                <option value="30">40</option>
+                <option value="40">50</option>
+              </select>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="js/main.js" type="module"></script>
