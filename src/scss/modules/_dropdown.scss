@@ -6,6 +6,7 @@
 .dropdown:hover .dropdown-child {
   transform: translateY(0);
   opacity: 1;
+  pointer-events: all;
 }
 
 .dropdown-child {
