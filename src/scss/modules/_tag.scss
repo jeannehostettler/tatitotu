@@ -1,8 +1,14 @@
-.alert {
+.tag {
   position: relative;
   padding: 6.5px 21px;
   margin-bottom: 11px;
   border: 1px solid black;
   border-radius: 38px;
   box-shadow: 4px 4px 0px 0px #000;
+  background: #a56edf;
+  color: white;
+}
+
+.tag-close {
+  position: absolute;
 }

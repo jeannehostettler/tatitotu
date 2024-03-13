@@ -4,5 +4,38 @@
 }
 
 .dropdown:hover .dropdown-child {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.dropdown-child {
+  z-index: 1;
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.dropdown-child a {
+  box-shadow: 4px 4px 0px 0px #000;
+  color: black;
+  background-color: white;
+  margin: 10px 10px 0 0;
+  text-decoration: none;
   display: block;
+  border: 1px solid black;
+  border-radius: 38px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  transition-property: background-color color;
+  transition-duration: 0.5s;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.dropdown-child a:hover {
+  color: white;
+  background-color: #a56edf;
 }
