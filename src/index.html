@@ -5,9 +5,12 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@800&family=MuseoModerno:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@800&family=MuseoModerno:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -44,9 +47,9 @@
               <a href="#">10 verbes essentiels au présent</a>
             </div>
           </div>
-          <button class="mainmenubtn">Exercer</button>
+          <button class="big-button">Exercer</button>
           <div class="dropdown">
-            <button class="mainmenubtn">Imprimer</button>
+            <button class="big-button">Imprimer</button>
             <div class="dropdown-child">
               <a href="#">DOC (Word)</a>
               <a href="#">PDF</a>
@@ -60,13 +63,15 @@
             <div class="top-card">
               <h2>Mes verbes</h2>
             </div>
-            <label for="addverb"></label>
-            <input
-              type="text"
-              id="field"
-              name="Ajoutez un verbe"
-              value="Ajoutez un verbe"
-            />
+            <div class="addverb">
+              <label for="addverb"></label>
+              <input
+                type="text"
+                id="field"
+                name="Ajoutez un verbe"
+                value="Ajoutez un verbe"
+              />
+            </div>
             <div class="tag">
               avoir
               <div class="tag-close">X</div>
@@ -83,15 +88,17 @@
               <button>Tout supprimer</button>
             </div>
           </div>
-          <button>Créer un défi</button>
-          <button>Sauvegarder un défi</button>
-          <label for="tochallenge"></label>
-          <input
-            type="text"
-            id="field"
-            name="Accès au défi (code)"
-            value="Accès au défi (code)"
-          />
+          <div class="challenge">
+            <button class="big-button">Créer un défi</button>
+            <button class="big-button">Sauvegarder un défi</button>
+            <label for="tochallenge"></label>
+            <input
+              type="text"
+              id="field"
+              name="Accès au défi (code)"
+              value="Accès au défi (code)"
+            />
+          </div>
         </div>
         <div class="col-4">
           <div class="cards">
@@ -194,15 +201,17 @@
             </div>
             <div class="options-chooser">
               Nombre de questions
-              <label for="numbers"></label>
-              <select name="numbers" id="numbers">
-                <option value="5">5</option>
-                <option value="10">10</option>
-                <option value="20">20</option>
-                <option value="20">30</option>
-                <option value="30">40</option>
-                <option value="40">50</option>
-              </select>
+              <div class="number-picker">
+                <label for="numbers"></label>
+                <select name="numbers" id="numbers">
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="20">20</option>
+                  <option value="20">30</option>
+                  <option value="30">40</option>
+                  <option value="40">50</option>
+                </select>
+              </div>
             </div>
             <div class="options-chooser">
               Type
@@ -227,7 +236,12 @@
               </div>
             </div>
             <label for="namefile">
-              <input type="text" id="field" name="Nom de la fiche" value="Nom de la fiche">
+              <input
+                type="text"
+                id="field"
+                name="Nom de la fiche"
+                value="Nom de la fiche"
+              />
             </label>
             <div class="buttons">
               <div class="small-button">
@@ -255,7 +269,6 @@
                 <button>Pronom inclusifs</button>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

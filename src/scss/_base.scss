@@ -68,6 +68,11 @@ input {
   padding: 6.5px 21px;
   color: #0000004d;
   margin-bottom: 15px;
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 button {
@@ -94,14 +99,8 @@ h2 {
   font-size: 36px;
 }
 
-input {
-  font-family: "MuseoModerno", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.3);
-  text-align: center;
-}
-
 h3 {
   font-family: KyivType;
+  font-weight: 400;
+  margin-left: 20px;
 }

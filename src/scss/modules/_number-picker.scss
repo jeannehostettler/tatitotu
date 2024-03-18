@@ -1,0 +1,13 @@
+.number-picker select {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 38px;
+  box-shadow: 4px 4px 0px 0px #000;
+  padding: 10px 21px;
+  transition-property: background-color color;
+  transition-duration: 0.5s;
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
