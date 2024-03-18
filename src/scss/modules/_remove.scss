@@ -2,11 +2,33 @@
   border: 1px solid transparent;
   box-shadow: none;
   background-color: transparent;
+  margin-bottom: 27px;
+  border-radius: 0px;
+  // background-color: red;
+  padding-bottom: 6px;
 }
 
-.remove-2 button {
+.remove button:hover {
+  color: black;
+  border-bottom: 2px solid #a56edf;
+}
+
+.remove-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.remove-card2 button {
   border: 1px solid transparent;
   box-shadow: none;
   background-color: transparent;
-  display: flex;
+  border-radius: 0px;
+  padding: 0px;
+  margin-right: 13px;
+}
+
+.remove-card2 button:hover {
+  color: black;
+  border-bottom: 1px solid #a56edf;
 }
