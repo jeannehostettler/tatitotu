@@ -40,6 +40,11 @@ video {
   vertical-align: middle;
 }
 
+@font-face {
+  font-family: "KyivType";
+  src: url("../fonts/KyivType\ Sans\ Regular-.otf") format("opentype");
+}
+
 /* ====================================
 // base rules
 // ==================================== */
@@ -87,4 +92,16 @@ h2 {
   font-weight: 800;
   color: white;
   font-size: 36px;
+}
+
+input {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h3 {
+  font-family: KyivType;
 }
