@@ -1,8 +1,10 @@
 .small-button-line {
   display: flex;
   margin-left: 36px;
+  flex-wrap: wrap;
 }
 
 .small-button {
   margin-bottom: 9px;
+  margin-right: 7px;
 }
