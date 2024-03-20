@@ -103,4 +103,28 @@ h3 {
   font-family: KyivType;
   font-weight: 400;
   margin-left: 20px;
+  margin-bottom: 6px;
+}
+
+progress {
+  -webkit-appearance: none;
+  width: 578px;
+  height: 31px;
+  margin-bottom: 17px;
+}
+
+::-webkit-progress-bar {
+  background-color: #e7e4b0;
+  border-radius: 30px;
+}
+
+::-webkit-progress-value {
+  background-color: #a56edf;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+::-webkit-progress-inner-element {
+  display: flex;
+  justify-content: center;
 }
