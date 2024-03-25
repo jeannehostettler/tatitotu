@@ -37,8 +37,8 @@
               <ul>
                 <div class="dropdown-child">
                   <li>
-                    <a>Groupes</a>
-                    <ul>
+                    <a>Par groupes</a>
+                    <ul class="groupes">
                       <li><a href="#">1er groupe (-er)</a></li>
                       <li><a href="#">2e groupe</a></li>
                       <li><a href="#">3e groupe</a></li>
@@ -47,6 +47,25 @@
                       <li>
                         <a href="#">3e groupe (-oire, aire, -dre, etc)</a>
                       </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Difficiles</a>
+                    <ul class="difficiles">
+                      <li><a href="#">-ger</a></li>
+                      <li><a href="#">-cer</a></li>
+                      <li><a href="#">-ger + -cer</a></li>
+                      <li><a href="#">Rare</a></li>
+                      <li><a href="#">Difficiles</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Pronominaux</a>
+                    <ul>
+                      <li><a href="#">Tous</a></li>
+                      <li><a href="#">1 verbe au hasard</a></li>
+                      <li><a href="#">5 verbes au hasard</a></li>
+                      <li><a href="#">10 verbes au hasard</a></li>
                     </ul>
                   </li>
                 </div>
@@ -144,83 +163,83 @@
             </div>
             <h3>Indicatif</h3>
             <div class="small-button-line">
-              <div class="small-button is-active">
-                <button>Présent</button>
+              <div class="small-button">
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Imparfait</button>
+                <button class="focus">Imparfait</button>
               </div>
               <div class="small-button">
-                <button>Futur</button>
+                <button class="focus">Futur</button>
               </div>
               <div class="small-button">
-                <button>Passé simple</button>
+                <button class="focus">Passé simple</button>
               </div>
               <div class="small-button">
-                <button>Passé composé</button>
+                <button class="focus">Passé composé</button>
               </div>
               <div class="small-button">
-                <button>Plus-que-parfait</button>
+                <button class="focus">Plus-que-parfait</button>
               </div>
               <div class="small-button">
-                <button>Futur antérieur</button>
+                <button class="focus">Futur antérieur</button>
               </div>
               <div class="small-button">
-                <button>Passé antérieur</button>
+                <button class="focus">Passé antérieur</button>
               </div>
             </div>
             <h3>Impératif</h3>
             <div class="small-button-line">
-              <div class="small-button is-active">
-                <button>Présent</button>
+              <div class="small-button">
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Passé</button>
+                <button class="focus-2">Passé</button>
               </div>
             </div>
             <h3>Subjonctif</h3>
             <div class="small-button-line">
               <div class="small-button">
-                <button>Présent</button>
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Passé</button>
+                <button class="focus">Passé</button>
               </div>
               <div class="small-button">
-                <button>Imparfait</button>
+                <button class="focus">Imparfait</button>
               </div>
               <div class="small-button">
-                <button>Plus-que-parfait</button>
+                <button class="focus">Plus-que-parfait</button>
               </div>
             </div>
             <h3>Conditionnel</h3>
             <div class="small-button-line">
-              <div class="small-button is-active">
-                <button>Présent</button>
+              <div class="small-button">
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Passé 1</button>
+                <button class="focus">Passé 1</button>
               </div>
               <div class="small-button">
-                <button>Passé 2</button>
+                <button class="focus">Passé 2</button>
               </div>
             </div>
             <h3>Participe</h3>
             <div class="small-button-line">
               <div class="small-button">
-                <button>Présent</button>
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Passé</button>
+                <button class="focus">Passé</button>
               </div>
             </div>
             <h3>Gérondif</h3>
             <div class="small-button-line">
               <div class="small-button">
-                <button>Présent</button>
+                <button class="focus">Présent</button>
               </div>
               <div class="small-button">
-                <button>Passé</button>
+                <button class="focus">Passé</button>
               </div>
             </div>
           </div>
@@ -248,10 +267,10 @@
               Type
               <div class="small-button-line">
                 <div class="small-button">
-                  <button>normal</button>
+                  <button class="focus">normal</button>
                 </div>
                 <div class="small-button">
-                  <button>Trouver mode + temps</button>
+                  <button class="focus">Trouver mode + temps</button>
                 </div>
               </div>
             </div>
@@ -259,10 +278,10 @@
               Options d'impression
               <div class="small-button-line">
                 <div class="small-button">
-                  <button>Sans</button>
+                  <button class="focus">Sans</button>
                 </div>
                 <div class="small-button">
-                  <button>Avec</button>
+                  <button class="focus">Avec</button>
                 </div>
               </div>
             </div>
@@ -276,28 +295,28 @@
             </label>
             <div class="buttons">
               <div class="small-button">
-                <button>Espace pour la note</button>
+                <button class="focus">Espace pour la note</button>
               </div>
               <div class="small-button">
-                <button>Afficher les verbes évalués</button>
+                <button class="focus">Afficher les verbes évalués</button>
               </div>
               <div class="small-button">
-                <button>Afficher les temps évalués</button>
+                <button class="focus">Afficher les temps évalués</button>
               </div>
               <div class="small-button">
-                <button>Espace pour le prénom</button>
+                <button class="focus">Espace pour le prénom</button>
               </div>
               <div class="small-button">
-                <button>Espace pour le nom</button>
+                <button class="focus">Espace pour le nom</button>
               </div>
               <div class="small-button">
-                <button>Espace pour la date</button>
+                <button class="focus">Espace pour la date</button>
               </div>
               <div class="small-button">
-                <button>Afficher nombre aléatoire</button>
+                <button class="focus">Afficher nombre aléatoire</button>
               </div>
               <div class="small-button">
-                <button>Pronom inclusifs</button>
+                <button class="focus">Pronom inclusifs</button>
               </div>
             </div>
           </div>
