@@ -1,0 +1,18 @@
+.mascotte img {
+  width: 120px;
+  margin-left: 353;
+  margin-top: 409px;
+  margin-bottom: 20px;
+  animation-name: little-spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes little-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
