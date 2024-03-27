@@ -12,3 +12,10 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+var focus = document.querySelectorAll(".focus");
+focus.forEach((element) => {
+  element.onclick = function () {
+    element.classList.toggle("is-active");
+  };
+});

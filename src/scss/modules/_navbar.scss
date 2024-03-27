@@ -30,13 +30,14 @@
 .navbar ul ul {
   left: 100%;
   top: 0;
-  margin-left: 10px;
+  padding-left: 10px;
+  z-index: 1;
 }
 
 .navbar ul .difficiles {
-  margin-left: 60px;
+  padding-left: 60px;
 }
 
 .navbar ul .groupes {
-  margin-left: 20px;
+  padding-left: 20px;
 }
