@@ -1,3 +1,5 @@
+const { Button } = require("bootstrap");
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
@@ -19,3 +21,11 @@ focus.forEach((element) => {
     element.classList.toggle("is-active");
   };
 });
+
+var progress = document.querySelector(".progress");
+var btn = document.getElementById("verification");
+var score = 0;
+btn.onclick = function () {
+  score += 10;
+  progress.value = score;
+};

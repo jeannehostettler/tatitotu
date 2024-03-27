@@ -89,8 +89,7 @@ button {
 }
 
 button:hover {
-  background-color: greenyellow;
-  color: black;
+  background-color: lightgray;
 }
 
 h2 {
@@ -122,8 +121,7 @@ progress {
 
 ::-webkit-progress-value {
   background-color: #a56edf;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-radius: 30px;
 }
 
 ::-webkit-progress-inner-element {
