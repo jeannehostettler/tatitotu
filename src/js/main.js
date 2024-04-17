@@ -40,4 +40,11 @@ btn.onclick = function () {
 };
 
 var checkAllTrigger = document.querySelector(".check-all");
-var buttons = document.querySelectorAll(".focus");
+var buttons = document.querySelectorAll(".added");
+console.log(checkAllTrigger, buttons);
+var checkAll = function () {
+  buttons.forEach((added) => {
+    added.classList.toggle("is-active");
+  });
+};
+checkAllTrigger.addEventListener("click", checkAll);
