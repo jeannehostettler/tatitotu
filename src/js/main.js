@@ -24,8 +24,20 @@ focus.forEach((element) => {
 
 var progress = document.querySelector(".progress");
 var btn = document.getElementById("verification");
+var field = document.getElementById("field");
 var score = 0;
 btn.onclick = function () {
-  score += 10;
+  var answer = field.value;
+  var solution = "faire";
+
+  if (answer == solution) {
+    alert("juste");
+    score += 10;
+  } else {
+    alert("faux");
+  }
   progress.value = score;
 };
+
+var checkAllTrigger = document.querySelector(".check-all");
+var buttons = document.querySelectorAll(".focus");
