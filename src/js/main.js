@@ -31,10 +31,10 @@ btn.onclick = function () {
   var solution = "vous faites";
 
   if (answer == solution) {
-    alert("juste");
+    alert("Correct!!");
     score += 10;
   } else {
-    alert("faux");
+    alert("Faux, la réponse était 'vous faites'");
   }
   progress.value = score;
 };
