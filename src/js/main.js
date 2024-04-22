@@ -41,6 +41,7 @@ btn.onclick = function () {
 
 var checkAllTrigger = document.querySelector(".check-all");
 var buttons = document.querySelectorAll(".added");
+var uncheckAllTrigger = document.querySelector(".unselect");
 console.log(checkAllTrigger, buttons);
 var checkAll = function () {
   buttons.forEach((added) => {
@@ -48,3 +49,10 @@ var checkAll = function () {
   });
 };
 checkAllTrigger.addEventListener("click", checkAll);
+console.log(uncheckAllTrigger, buttons);
+var uncheckAll = function () {
+  buttons.forEach((added) => {
+    added.classList.remove("is-active");
+  });
+};
+uncheckAllTrigger.addEventListener("click", uncheckAll);
