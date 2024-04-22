@@ -1,0 +1,17 @@
+.radio-placeholder {
+  display: inline-block;
+  border: 1 solid black;
+  border-radius: 38px;
+  box-shadow: 4px 4px 0px 0px #000;
+  padding: 6.5px 21px;
+  color: black;
+  margin-bottom: 15px;
+  background-color: white;
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.radio input {
+  display: none;
+}

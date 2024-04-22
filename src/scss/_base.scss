@@ -76,6 +76,11 @@ input {
   text-align: center;
 }
 
+input:checked + .radio-placeholder {
+  background-color: #a56edf;
+  color: white;
+}
+
 button {
   background-color: white;
   color: black;

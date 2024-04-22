@@ -1,11 +1,16 @@
 .challenge {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-top: 45px;
+  align-items: center;
 }
 
 .challenge button {
   margin-bottom: 10px;
+}
+
+.challenge input {
+  width: 100%;
 }
