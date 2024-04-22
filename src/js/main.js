@@ -65,3 +65,15 @@ var autocomplete = function () {
   suggestions.innerHTML = items.join(", ");
 };
 textfield.addEventListener("keyup", autocomplete);
+
+var radioWith = document.querySelector(".radio-with");
+var options = document.querySelector(".more-options");
+var radioWithout = document.querySelector(".radio-without");
+var showoptions = function () {
+  options.style.display = "block";
+};
+var hideoptions = function () {
+  options.style.display = "none";
+};
+radioWith.addEventListener("change", showoptions);
+radioWithout.addEventListener("change", hideoptions);
