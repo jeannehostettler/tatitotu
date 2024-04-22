@@ -28,7 +28,7 @@ var field = document.getElementById("field");
 var score = 0;
 btn.onclick = function () {
   var answer = field.value;
-  var solution = "faire";
+  var solution = "vous faites";
 
   if (answer == solution) {
     alert("juste");
@@ -56,3 +56,12 @@ var uncheckAll = function () {
   });
 };
 uncheckAllTrigger.addEventListener("click", uncheckAll);
+
+var verbes = ["être", "dire", "avoir", "manger", "savoir"];
+var textfield = document.querySelector(".textfield");
+var suggestions = document.querySelector(".suggestions");
+var autocomplete = function () {
+  var items = verbes.filter((value) => value.includes(textfield.value));
+  suggestions.innerHTML = items.join(", ");
+};
+textfield.addEventListener("keyup", autocomplete);
